@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6c0193/v1
+canonical_location: https://kanripo.org/bkk/KR6c0193/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 般若心經註解
+  identifiers:
+    alt_id:
+    - X26n0574
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X26/X26n0574.xml
+    old_id: X26n0574
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0193_000.yaml, hash: 'sha256:d10e1f0c009a802ea3bd4899e0747dc9e06c6beef108433724d9e15c31d42d9b'}
+  - {seq: 1, filename: KR6c0193_001.yaml, hash: 'sha256:a5a6d8ae6703919cd87d7cc726cec34954d5678fef8cef63be6b09ec5e065d45'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0193_001.markers.yaml, hash: 'sha256:40f77deae6c83ad94b54a1a1309490dd540f767dfe879919cbe00eb322306f09'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0193_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 17556
+  label: 摩訶般若波羅蜜多心經
+  type: juan
+  level: 1
+hash: sha256:9049180436f23978ad76aa3ea21c29fa488e194ebaccb4f6d048729c2476d888
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
